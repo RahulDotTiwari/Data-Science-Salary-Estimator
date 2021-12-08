@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{70368963-DE99-35FB-AAB9-616C3F005AB3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Vivan\Documents\GitHub\ds-salary-proj\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/Vivan/Documents/GitHub/ds-salary-proj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Vivan/Documents/GitHub/ds-salary-proj -BC:/Users/Vivan/Documents/GitHub/ds-salary-proj/build --check-stamp-file C:/Users/Vivan/Documents/GitHub/ds-salary-proj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CPack.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTest.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Templates\CPackConfig.cmake.in;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/Vivan/Documents/GitHub/ds-salary-proj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Vivan/Documents/GitHub/ds-salary-proj -BC:/Users/Vivan/Documents/GitHub/ds-salary-proj/build --check-stamp-file C:/Users/Vivan/Documents/GitHub/ds-salary-proj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CPack.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTest.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Templates\CPackConfig.cmake.in;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/Vivan/Documents/GitHub/ds-salary-proj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Vivan/Documents/GitHub/ds-salary-proj -BC:/Users/Vivan/Documents/GitHub/ds-salary-proj/build --check-stamp-file C:/Users/Vivan/Documents/GitHub/ds-salary-proj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CPack.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTest.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Templates\CPackConfig.cmake.in;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/Vivan/Documents/GitHub/ds-salary-proj/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Vivan/Documents/GitHub/ds-salary-proj -BC:/Users/Vivan/Documents/GitHub/ds-salary-proj/build --check-stamp-file C:/Users/Vivan/Documents/GitHub/ds-salary-proj/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CPack.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CPackComponent.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTest.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTestTargets.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\CTestUseLaunchers.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\DartConfiguration.tcl.in;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;C:\Users\Vivan\AppData\Local\Programs\Python\Python39-32\Lib\site-packages\cmake\data\share\cmake-3.18\Templates\CPackConfig.cmake.in;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\3.18.2\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\ZERO_CHECK.vcxproj">
+      <Project>{E8C0F76F-357C-3926-B1E2-76E5829A5829}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Vivan\Documents\GitHub\ds-salary-proj\build\dsSP.vcxproj">
+      <Project>{058141D9-68CB-3A68-8115-06DD881D8159}</Project>
+      <Name>dsSP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
